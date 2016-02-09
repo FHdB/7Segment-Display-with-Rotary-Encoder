@@ -98,7 +98,7 @@ above, provided that you also meet all of these conditions:
     b) You must cause any work that you distribute or publish, that in
     whole or in part contains or is derived from the Program or any
     part thereof, to be licensed as a whole at no charge to all third
-    parties under the terms of https://github.com/FHdB/7Segment-Display-with-Rotary-Encoderthis License.
+    parties under the terms of https://github.com/FHdB/7Segment-Display-with-Rotary-Encoder this License.
 
     c) If the modified program normally reads commands interactively
     when run, you must cause it, when started running for such
