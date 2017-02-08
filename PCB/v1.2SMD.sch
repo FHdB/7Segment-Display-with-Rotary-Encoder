@@ -6576,8 +6576,8 @@ Source: Panasonic</description>
 <pad name="1" x="-2.5" y="-7" drill="1.1" diameter="1.6764" rot="R270"/>
 <pad name="2" x="0" y="-7" drill="1.1" diameter="1.6764" rot="R270"/>
 <pad name="3" x="2.5" y="-7" drill="1.1" diameter="1.6764" rot="R270"/>
-<pad name="M1" x="4.5" y="0" drill="1.6" diameter="2.8" shape="square" rot="R270"/>
-<pad name="M2" x="-4.5" y="0" drill="1.6" diameter="2.8" shape="square" rot="R270"/>
+<pad name="M1" x="4.5" y="0" drill="2.5" diameter="3.5" shape="square" rot="R270"/>
+<pad name="M2" x="-4.5" y="0" drill="2.5" diameter="3.5" shape="square" rot="R270"/>
 <text x="-3" y="6.5" size="1.27" layer="25">&gt;NAME</text>
 <text x="-4.5" y="-9.5" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-2.925" y1="-7.325" x2="-2.075" y2="-6.5" layer="51"/>
