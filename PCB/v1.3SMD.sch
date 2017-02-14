@@ -8440,9 +8440,9 @@ Projekt: 4x7segment output,
 <wire x1="81.28" y1="251.46" x2="157.48" y2="251.46" width="0.1524" layer="98"/>
 <wire x1="157.48" y1="251.46" x2="157.48" y2="261.62" width="0.1524" layer="98"/>
 <wire x1="81.28" y1="335.28" x2="149.86" y2="335.28" width="0.1524" layer="98"/>
-<wire x1="149.86" y1="325.12" x2="149.86" y2="292.1" width="0.1524" layer="98"/>
-<wire x1="149.86" y1="292.1" x2="81.28" y2="292.1" width="0.1524" layer="98"/>
-<wire x1="81.28" y1="292.1" x2="81.28" y2="325.12" width="0.1524" layer="98"/>
+<wire x1="149.86" y1="325.12" x2="149.86" y2="266.7" width="0.1524" layer="98"/>
+<wire x1="149.86" y1="266.7" x2="81.28" y2="266.7" width="0.1524" layer="98"/>
+<wire x1="81.28" y1="266.7" x2="81.28" y2="325.12" width="0.1524" layer="98"/>
 <wire x1="81.28" y1="325.12" x2="81.28" y2="335.28" width="0.1524" layer="98"/>
 <wire x1="81.28" y1="325.12" x2="149.86" y2="325.12" width="0.1524" layer="98"/>
 <wire x1="149.86" y1="325.12" x2="149.86" y2="335.28" width="0.1524" layer="98"/>
@@ -8921,9 +8921,9 @@ Projekt: 4x7segment output,
 <wire x1="322.58" y1="269.24" x2="327.66" y2="269.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="259.08" y1="256.54" x2="264.16" y2="256.54" width="0.1524" layer="91"/>
-<label x="264.16" y="256.54" size="1.778" layer="95"/>
-<pinref part="IC2" gate="G$1" pin="(ADC0)PC0)"/>
+<wire x1="259.08" y1="259.08" x2="264.16" y2="259.08" width="0.1524" layer="91"/>
+<label x="264.16" y="259.08" size="1.778" layer="95"/>
+<pinref part="IC2" gate="G$1" pin="(ADC1)PC1"/>
 </segment>
 </net>
 <net name="RE1_2" class="0">
@@ -8936,9 +8936,9 @@ Projekt: 4x7segment output,
 <wire x1="353.06" y1="269.24" x2="347.98" y2="269.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="259.08" y1="259.08" x2="264.16" y2="259.08" width="0.1524" layer="91"/>
-<label x="264.16" y="259.08" size="1.778" layer="95"/>
-<pinref part="IC2" gate="G$1" pin="(ADC1)PC1"/>
+<wire x1="259.08" y1="256.54" x2="264.16" y2="256.54" width="0.1524" layer="91"/>
+<label x="264.16" y="256.54" size="1.778" layer="95"/>
+<pinref part="IC2" gate="G$1" pin="(ADC0)PC0)"/>
 </segment>
 </net>
 <net name="RE2_1" class="0">
@@ -8951,9 +8951,9 @@ Projekt: 4x7segment output,
 <wire x1="388.62" y1="269.24" x2="393.7" y2="269.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="(INT0)PD2"/>
-<wire x1="259.08" y1="238.76" x2="264.16" y2="238.76" width="0.1524" layer="91"/>
-<label x="264.16" y="238.76" size="1.778" layer="95"/>
+<wire x1="259.08" y1="241.3" x2="271.78" y2="241.3" width="0.1524" layer="91"/>
+<label x="271.78" y="241.3" size="1.778" layer="95"/>
+<pinref part="IC2" gate="G$1" pin="(INT1)PD3"/>
 </segment>
 </net>
 <net name="RE2_2" class="0">
@@ -8966,9 +8966,9 @@ Projekt: 4x7segment output,
 <wire x1="414.02" y1="269.24" x2="419.1" y2="269.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="(INT1)PD3"/>
-<wire x1="259.08" y1="241.3" x2="264.16" y2="241.3" width="0.1524" layer="91"/>
-<label x="264.16" y="241.3" size="1.778" layer="95"/>
+<wire x1="259.08" y1="238.76" x2="271.78" y2="238.76" width="0.1524" layer="91"/>
+<label x="271.78" y="238.76" size="1.778" layer="95"/>
+<pinref part="IC2" gate="G$1" pin="(INT0)PD2"/>
 </segment>
 </net>
 <net name="RESET" class="0">
